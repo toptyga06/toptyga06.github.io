@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Box;
+
+}
+
+@font-face{
+	font-family: Box;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+html, body, main{
+	height: 100%;
+}
+
+.container1{
+	height: 85%;
+    width: 100%;
+	background-image: url(../images/phone.jpg);
+	background-size: cover;
+}
+.header-line{
+	padding-top: 15px;
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	padding-top: 20px
+}
+
+
+.num{
+	color: white;
+	font-size: 25px;
+    font-weight: bold;
+letter-spacing: 2px;
+margin-bottom: 10px
+
+}
+
+.req{
+	color: white;
+	font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 5px;
+    background-color: #037E8C;
+    border-radius: 20px;
+    padding: 10px 20px
+}
+ .call{
+ 	text-align: center;
+ }
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+ .cont{
+ 	color: white;
+ 	width: 40%;
+ 	margin-left: 110px;
+ 	margin-top: 100px
+ }
+
+ .text{
+ 	font-size: 65px;
+ 	font-weight: bold;
+ 	letter-spacing: 5px;
+ }
+
+
+ .text1{
+ 	font-size: 18px;
+ 	margin-top: 40px;
+ 	letter-spacing: 2px
+ }
+
+ 
+ 
+
+ .hack{
+ 	text-align: center;
+ 	margin-top: 40px
+ }
+
+ h1{
+ 	text-align: center;
+ 	margin-top: 150px;
+ 	margin-bottom: 80px;
+ }
+
+ .cont-way1{
+ 	width: 83%;
+ 	display: flex;
+ 	align-items: center;
+ }
+.content2{
+	display: flex;
+	justify-content: center;
+}
+
+.way1_info{
+width: 10%;
+}
+
+.baz1{
+	font-size: 34px
+}
+.way1_info{
+	font-size: 20px;
+	color:#037E8C
+}
+
+.t1{
+	font-size: 16px;
+	color: #3b3838;
+	margin-top: 19px;
+	
+}
+
+span{
+	color: black;
+	font-size: 15px;
+}
+
+.s1{
+	font-size: 16px;
+	color: #3b3838
+
+}
+
+.h1{
+	font-size: 16px;
+	color: #3b3838;
+	margin-bottom: 25px;
+}
+.way1_info,p{
+	line-height: 30px;
+}
+
+.way{
+	font-size: 20px;
+	color: #037E8C;
+}
+
+.all-text1{
+	width: 43%;
+}
+
+
+.gallery1{
+	width:620px;
+	
+	height: 300px;
+	display: flex;
+	align-items: center;
+}
+.photo{
+	margin: 10px;
+	
+}
+
+
+.car{
+	border-radius: 10px;
+}
+
+.gallery2{
+	width:620px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.cont-way2{
+	width: 90%;
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.all-text2{
+	width: 44%
+}
+
+.cont-way3{
+ 	width: 83%;
+ 	margin-top: 150px;
+ 	display: flex;
+ 	align-items: center;
+ }
+
+ .all-text3{
+	width: 43%
+}
+
+h2{
+	text-align: center;
+
+}
+
+.hack2{
+	margin-top: 60px
+}
+
+.photo:hover{
+	
+	transform: scale(1.07);
+	transition: all 0.7s;
+}
+
+
+.serv{
+	width: 100%;
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+
+.condition{
+	display: flex;
+	align-items: flex-start;
+	width: 30%;
+	margin: 40px 20px;
+}
+
+.container3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h4{
+	margin-left: 10px;
+	font-size: 14px;
+}
+.text6{
+	display: flex;
+	flex-wrap: wrap;
+	width: 85%;
+}
+
+
+
+.special{
+	font-size: 30px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.container4{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.boss_gift{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pres1{
+	display: flex;
+	justify-content: center;
+}
+
+.pres2{
+	width: 26%;
+	text-align: center;
+	color: #037E8C;
+	font-size: 20px;
+	margin-top: 10px;
+
+}
+
+.text_present{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 130px;
+}
+
+
+.info_present{
+	width: 33%;
+	font-size: 24px;
+	line-height: 27px;
+}
+
+.present_cont{
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	border: 2px solid #037E8C;
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+
+.container5{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.text12{
+	margin-top: 30px;
+	font-size: 12px;
+	border: 1px solid #037E8C;
+	padding: 6px 4px;
+	text-align: center;
+	color: #037E8C;
+	width: 60%;
+	border-radius: 10px;
+	}
+
+
+	.cont6{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+.cont6_info1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.boss_info1{
+	width: 70%;
+	color: #037E8C;
+}
+
+img{
+	border-radius: 20px;
+}
+
+
+.aly{
+	margin-bottom: 50px;
+}
+
+footer{
+	
+	width: 100%;
+	text-align: center;
+	margin-top: 200px
+
+}
+
