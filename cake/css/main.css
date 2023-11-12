@@ -1,0 +1,325 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+html, body, main{
+	height: 100%;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+}
+.container1{
+	background-image: url(../images/phone1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.header_line{
+	display: flex;
+	align-items: center;
+	width: 70%;
+	justify-content: space-around;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	
+}
+.meny{
+	
+	font-size: 23px;
+}
+.cakes{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.meny:hover{
+	color: #D11D65;
+	transition: 0.2s;
+	
+}
+
+a{
+	text-decoration: none;
+	color: black
+}
+.boss{
+	font-size: 60px;
+	width: 40%;
+	padding-top: 80px;
+	margin-left: 150px
+}
+
+.alla{
+	margin-left: 155px;
+	width: 24%;
+	font-weight: bold;
+	margin-top: 30px;
+	
+}
+
+.menu_elements{
+	position: relative;
+}
+
+.menu_elements::before{
+	content: '';
+	bottom: 0px;
+	left: 0;
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background-color: #D11D65;
+	transition: 0.5s;
+
+	
+}
+
+.menu_elements:hover:before{
+	width: 100%;
+
+}
+
+.b1{
+	background-color: #D11D65;
+	padding: 16px 25px;
+	border-radius: 29px;
+	border: 1px solid black;
+	font-size: 17px;
+	font-weight: bold;
+}
+.our_skills{
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.skill{
+	width: 50%;
+	font-size: 17px;
+}
+
+.batman{
+	display: flex;
+	width: 60%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.superman{
+	display: flex;
+	justify-content: center;
+	width: 55%;
+}
+
+.buttons{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.image_content{
+	width: 45%;
+	
+	height: 280px;
+}
+
+.play{
+	width: 55px;
+	height: 55px;
+}
+
+.image_content{
+	width: 30%;
+
+}
+
+.cake1{
+	
+	height: 320px;
+}
+
+.cake2{
+	height: 320px;
+}
+
+.image_container{
+	display: flex;
+}
+
+.opisanie{
+	
+	font-size: 18px;
+	width: 60%;
+	margin-left: 40px;
+	letter-spacing: 1.5px;
+
+}
+
+.cake1:hover{
+transform: scale(1.1);
+transition: 1.09s
+}
+
+.cake2:hover{
+transform: scale(1.1);
+transition: 1.09s
+}
+
+.container2{
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+	
+	height: 1000px;
+	background-image: url(../images/display2.svg);
+	margin-top: 100px;
+	background-position: center;
+	background-size: cover;
+}
+.fovorite_cakes{
+margin-top: 160px;
+text-align: center;
+width: 43%;
+font-size: 70px;
+letter-spacing: 2px;
+}
+
+.fovorite_cakes1{
+	width: 100%;
+	display: flex;justify-content: center;
+}
+
+.deli{
+	width: calc(33% - 40px) ;
+	height:30vh;
+	text-align: center;
+	margin:30px 20px;
+	border-radius: 35px;
+	display: flex;
+	flex-direction: column;
+
+}
+.cakes_container{
+	width: 90%;
+	
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.napoleon{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.napoleon_txt{
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.but{
+	text-align: center;
+	margin-top: 110px;
+	background-color:  #D11D65;padding: 16px 25px;
+	width: 15%;
+	border-radius: 29px;
+	height: 55px;
+}
+
+.but5{
+	width: 100%;
+	display: flex;justify-content: center;
+
+}
+
+.container3{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.displai3_img{
+	height: 120vh;
+	text-align: center;
+}
+
+.container4{
+	width: 100%;
+	height: 130%;
+	
+	margin-top: 200px;
+	background-size: cover;
+	background-position: center;
+}
+.displai4_img{
+	width: 100%;
+	height: 90%;
+
+}
+
+
+footer{
+	text-align: center;
+	margin-top: 100px;
+	width: 100%;
+
+
+}
+
+.calluss{
+	margin-top: 10px;
+}
+
+h2{
+	font-size: 25px;
+	letter-spacing: 1.3px;
+}
+
+.icon1{
+	width: 40px;
+	height: 40px;
+}
+
+.call_me{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tel{
+	opacity: 0.5;
+}
+
+.button_last{
+	text-align: center;
+background-color:  #D11D65;padding: 16px 50px;
+
+	border-radius: 20px;
+	
+}
+
+.footer{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+.cabinet{
+	width: 50%;
+	display: flex;
+	justify-content:space-around;
+}
