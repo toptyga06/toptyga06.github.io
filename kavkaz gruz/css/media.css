@@ -1,10 +1,11 @@
-@media only screen and (max-width: 580px){
+@media only screen and (max-width: 480px){
 
 
 
 .header_line{
     font-size: 10px;
     width: 100%;
+    display: flex;align-items: center;
 }
 
 .gruz{
@@ -17,6 +18,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 30px;
+    margin-bottom: 25px;
 }
 
 
