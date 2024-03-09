@@ -1,6 +1,13 @@
 @media only screen and (max-width: 480px){
 
-
+.container1{
+   
+    background-image: url(../image/next3.jpg);
+    background-size: cover;
+    background-position: right;
+    
+   
+}
 
 .header_line{
     font-size: 10px;
