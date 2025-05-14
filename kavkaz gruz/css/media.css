@@ -67,5 +67,27 @@
 .uslugi_img{
     width: 90px;
 }
+.button-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.link-button {
+    margin: 10px;  
+    background-color:  rgb(62 150 188);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 25px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 6px 12px  rgb(62 150 188);
+      user-select: none;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content:space-around;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
 }
