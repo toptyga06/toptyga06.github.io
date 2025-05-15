@@ -118,11 +118,12 @@
 
 	
 
-  <div class="container">
-    <div class="toggle-item" onclick="toggleText('text1')">
-      Договор оферты
-    </div>
-    <div id="text1" class="toggle-text">
+		
+<div class="container">
+
+    <input type="checkbox" id="toggle1" />
+    <label for="toggle1" class="toggle-item">Договор оферты</label>
+    <div class="toggle-text">
       ПУБЛИЧНАЯ ОФЕРТА
 на оказание услуг по доставке от имени Общества с ограниченной ответственностью «Кавказ»
 
@@ -183,11 +184,10 @@ Email: kavkaz06.kavkaz@mail.ru
 
     </div>
 
-    <div class="toggle-item" onclick="toggleText('text2')">
-      Политика конфиденциальности
-    </div>
-    <div id="text2" class="toggle-text">
-      Политика конфиденциальности
+    <input type="checkbox" id="toggle2" />
+    <label for="toggle2" class="toggle-item">Политика конфиденциальности</label>
+    <div class="toggle-text">
+     Политика конфиденциальности
 ________________________________________
  
  
@@ -498,16 +498,11 @@ E. ОТКАЗ ОТ ПОЛУЧЕНИЯ МАРКЕТИНГОВЫХ МАТЕРИА�
 
  
 
-
+.
     </div>
+
   </div>
 
-<script>
-  function toggleText(id) {
-    const el = document.getElementById(id);
-    el.classList.toggle("show");
-  }
-</script>
 
 
 
@@ -516,4 +511,3 @@ E. ОТКАЗ ОТ ПОЛУЧЕНИЯ МАРКЕТИНГОВЫХ МАТЕРИА�
 	</main>
 </body>
 </html> 
-
