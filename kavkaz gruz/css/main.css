@@ -246,3 +246,86 @@ a{
 	font-size: 15px;
 	margin: 30px;
 }
+
+
+
+/* .container {
+	background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    padding: 40px;
+  }
+
+  .toggle-item {
+    background-color: #e1ecf9;
+    border-radius: 8px;
+    padding: 16px 20px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    user-select: none;
+    font-weight: 600;
+    color: #1a73e8;
+    transition: background-color 0.3s ease;
+    box-shadow: inset 0 0 0 1px #a8bbd6;
+  }
+  .toggle-item:hover {
+    background-color: #c6daff;
+  }
+
+  .toggle-text {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease;
+    font-size: 15px;
+    color: #333;
+    margin-left: 10px;
+  }
+
+  .toggle-text.show {
+    max-height: 200px;
+    margin-top: 8px;
+  }*/
+
+
+ .container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+    padding: 20px;
+  }
+
+  .toggle-item {
+    background-color: #e1ecf9;
+    border-radius: 8px;
+    padding: 16px 20px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    user-select: none;
+    font-weight: 600;
+    color: #1a73e8;
+    transition: background-color 0.3s ease;
+    box-shadow: inset 0 0 0 1px #a8bbd6;
+  }
+  .toggle-item:hover {
+    background-color: #c6daff;
+  }
+
+  .toggle-text {
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 1.4s ease, opacity 0.4s ease;
+    font-size: 17px;
+    color: #333;
+	font-weight: 600;
+    margin-left: 10px;
+    padding: 0 10px;
+  }
+
+  .toggle-text.show {
+    opacity: 1;
+    max-height: 10000px; /* Высокий лимит, чтобы вместить большой текст */
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
