@@ -94,4 +94,39 @@
       justify-content:space-around;
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
+
+
+
+
+.container {
+      width: 95%;
+      padding: 15px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    .toggle-item {
+      font-size: 18px;
+      padding: 18px 16px;
+      border-radius: 10px;
+      margin-bottom: 14px;
+      box-shadow: inset 0 0 0 1px #8fa4c7;
+    }
+    .toggle-item:hover {
+      background-color: #a9c2ff;
+    }
+    .toggle-text {
+      font-size: 16px;
+      margin-left: 0;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+
+
 }
+
+
+
+  
+
+
